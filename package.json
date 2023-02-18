@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bullmq": "^3.7.0",
+    "ioredis": "^5.3.1"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "yarn clean && tsc --project tsconfig.build.json",
+    "serve": "NODE_ENV=production REDIS_PORT=12728 REDIS_HOST=redis-12728.c259.us-central1-2.gce.cloud.redislabs.com REDIS_PASS=fZJ1IteZ4ZYvlTbjGnksJhQnEYkQBpZC node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}

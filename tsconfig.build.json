@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "declaration": false,
+    "declarationMap": false,
+    "outDir": "dist"
+  },
+  "exclude": ["dist", "node_modules"]
+}
